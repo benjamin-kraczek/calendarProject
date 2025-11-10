@@ -19,7 +19,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Calendar implements MouseListener, WindowListener {
 	static final String filePath = System.getProperty("user.dir") + "\\dataFiles\\calendarEvents.csv";
-	static ImageIcon trashIcon = new ImageIcon("C:\\Users\\benjaminkraczek\\Downloads\\Screenshot trach icon.png");
+	static ImageIcon trashIcon = new ImageIcon( ("user.dir")+"\\dataFiles\\Screenshot trach icon.png");
 	static ArrayList<ArrayList<String>> events = new ArrayList<ArrayList<String>>();
 	static ArrayList<ArrayList<String>> tasks = new ArrayList<ArrayList<String>>();
 	
@@ -576,3 +576,4 @@ public class Calendar implements MouseListener, WindowListener {
 
 	}
 }
+
